@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: RabbitMqProducer
+
+server:
+  port: 8082
+
+app:
+  rabbitmq:
+    username: admin
+    password: admin
+    virtual-host: virtual-host
+    queue: test-queue
+    exchange: exchange
+    rooting-key: test-routing-key
